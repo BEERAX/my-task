@@ -73,6 +73,4 @@ function App() {
   );
 }
 
-// Testing Git
-
 export default App;
