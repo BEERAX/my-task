@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.main-container {
+  width: 50%;
+  border-radius: 12px;
+  text-align: center;
+  margin: 10px auto;
+  padding: 30px;
+  border: 2px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+/* Task Container */
+.tasklist-container {
+  padding: 15px;
+  text-align: left;
+}
+
+.my-tasks {
+  text-align: left;
+
+}
+
+.ttask {
+  display: flex;
+  justify-content: space-between;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.tdate {
+  display: flex;
+  justify-content: space-between;
+  font-size: 80%;
+  font-style: italic;
+}
+
+.my-tasks span {
+  color: #f83c3c;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-task-container {
+  border: 1px solid #858383;
+  margin: 5px;
+}
+
+.main-task-container.reminder {
+  border-left: 5px solid #f83c3c;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  font-size: 130%;
+  font-style: inherit;
+  background-color: #f83c3c;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+
+.btn-container {
+  padding: .5rem 0 .2rem 0;
+}
+
+.add-btn {
+  text-align: right;
+  padding-right: .5em;
+}
+
+/* delete-icon */
+.delete-btn {
+  color: #f83c3c;
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: .20rem;
+}
+
+.delete-btn:hover {
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+/* PowerOff, Plus icon */
+.off-btn, .plus-btn {
+  color: #f83c3c;
+  padding: auto;
+  margin-top: .20rem;
+  margin-left: .04rem;
+}
+
+.off-btn:hover, .plus-btn:hover {
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+/* Add Task Form */
+.form-container {
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.lbl-style {
+  display: grid;
+  font-size: 1rem;
+  padding-bottom: .5rem;
+}
+
+.form-textbox {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.submit-btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #f83c3c;
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.form-checkbox {
+  display: flex;
+  margin: .5rem 0 1rem .5rem ;
+}
+
+/* Footer */
+.footer-container {
+  padding-top: 2rem;
+}
+
+.about-container {
+  text-decoration: none;
+}
+
+.link-btn {
+  text-decoration: none;
+  color: #f83c3c;
+}
+
+.link-btn:hover {
+  color: black;
+  transition: 0.3s ease-in-out;
+}
